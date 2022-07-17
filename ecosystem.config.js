@@ -2,7 +2,6 @@ module.exports = {
   apps : [
     {
       name: "demoDB",
-      cwd: ".",
       args: [
         "-jar",
         "demo_db-0.0.1-SNAPSHOT.jar"
@@ -14,6 +13,14 @@ module.exports = {
       log_date_format: "YYYY-MM-DD HH:mm Z",
       exec_interpreter: "none",
       exec_mode: "fork"
+    },
+    {
+      name: 'demoBack',
+      cwd: './demo/demo_back_node',
+      script: 'server.js',
+      watch: [
+          'server.js',
+      ]
     }
   ],
 }
