@@ -1,3 +1,3 @@
 echo "db run start"
 
-java -jar demo_db-0.0.1-SNAPSHOT.jar
+java -jar demo_db-0.0.2.jar
