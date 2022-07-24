@@ -19,7 +19,10 @@ ecosystem.config.js
         - start : gradle bootRun
         - jar build : gradle bootJar
             - jar start : java -jar [filename].jar
+            - 생성 경로 : build/libs/~~
+    - ecosystem에 추가
+        - https://javaexpert.tistory.com/957
 
-4. ecosystem에 DB 프로젝트 등록
-    - https://javaexpert.tistory.com/957
-
+4. backend로 사용할 node 프로젝트 생성
+    - restApi로 생성
+    - ecosystem에 추가
