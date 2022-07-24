@@ -4,7 +4,7 @@ module.exports = {
       name: "demoDB",
       args: [
         "-jar",
-        "demo_db-0.0.1-SNAPSHOT.jar"
+        "demo_db-0.0.2.jar"
       ],
       env: {
       },
